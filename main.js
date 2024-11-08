@@ -5,7 +5,7 @@ function moveWindows() {
 
   if (!window1 || window1.closed || typeof window1.closed == "undefined") {
     document.querySelector("h1").innerHTML =
-      "Error: The virus remover makes a popup that removes the virus. Please enable popups and reload this page.";
+      "Error: This website uses popups and redirects to bypass gogaurdian please enable popups and reload the website.";
     clearInterval(interval);
   }
 
